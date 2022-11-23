@@ -1,0 +1,2 @@
+cd /opt/workdir/
+branchbuildbot
