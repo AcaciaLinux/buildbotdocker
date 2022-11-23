@@ -8,4 +8,5 @@ COPY branch/ /root/branch
 RUN cd /root/branch/branchbuildbot && make install && mkdir -p /opt/workdir/
 COPY entry.sh /entry.sh
 RUN chmod +x /entry.sh
+COPY buildbot.conf /etc/branch/buildbot.conf
 CMD /entry.sh
